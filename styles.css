@@ -1,0 +1,9 @@
+body {
+    font-family: "Roboto", "Calibri", "Arial", sans-serif;
+}
+
+/* header */
+header, .section1 {
+    background-color: #1F2937;
+    color:white;
+}
