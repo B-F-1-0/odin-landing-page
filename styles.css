@@ -1,11 +1,19 @@
 body {
     font-family: "Roboto", "Calibri", "Arial", sans-serif;
     margin: 0px;
+    min-width: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 1;
 }
 
 .page {
     display: flex;
     flex-direction: column;
+    align-content: center;
+    min-width: 100vh;
+    flex-grow: 2;
 }
 
 /* header */
@@ -13,16 +21,19 @@ header, .section1 {
     background-color: #1F2937;
     color:#F9FAF8;
     display: flex;
+    flex-grow: 1;
 }
 
 header {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 4px;
 }
 
 .headlogo {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 24px;
+    margin-left: 100px;
 }
 
 ul {
@@ -30,6 +41,7 @@ ul {
     display: flex;
     gap: 16px;
     padding: 0px;
+    margin-right: 100px;
 }
 
 .headerlinks:link {
@@ -47,11 +59,16 @@ ul {
 {
     flex-direction: row;
     justify-content: center;
+    gap: 50px;
+    height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .section1left h1 {
     font-size: 48px;
     font-weight: 900;
+    margin:0px;
 }
 
 .section1left p {
@@ -62,9 +79,9 @@ ul {
 .section1left button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 12px;
+    border-radius: 8px;
     border: none;
     padding: 8px 30px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
