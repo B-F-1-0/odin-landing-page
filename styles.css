@@ -1,9 +1,70 @@
 body {
     font-family: "Roboto", "Calibri", "Arial", sans-serif;
+    margin: 0px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
 }
 
 /* header */
 header, .section1 {
     background-color: #1F2937;
-    color:white;
+    color:#F9FAF8;
+    display: flex;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+}
+
+.headlogo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0px;
+}
+
+.headerlinks:link {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.headerlinks:visited {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* hero/section 1 */
+.section1
+{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section1left h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section1left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section1left button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 12px;
+    border: none;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: bold;
 }
