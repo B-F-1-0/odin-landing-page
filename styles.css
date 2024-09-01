@@ -122,3 +122,29 @@ ul {
     height: 150px;
     width: 150px;
 }
+
+/* section 3/quote */
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+#quote {
+    font-style:italic;
+    font-size:36px;
+    color:#1F2937;
+    font-weight: 300;
+    width: 800px;
+}
+
+#sig {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    padding:0px;
+    margin:0px;
+}
