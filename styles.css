@@ -62,7 +62,12 @@ ul {
     gap: 50px;
     height: 400px;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.section1left {
+    display:flex;
+    flex-wrap:wrap;
+    max-width: 450px;
 }
 
 .section1left h1 {
@@ -129,8 +134,10 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 8px;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 #quote {
@@ -139,12 +146,14 @@ ul {
     color:#1F2937;
     font-weight: 300;
     width: 800px;
+    padding:8px;
+    margin:0px;
 }
 
 #sig {
     text-align: right;
     font-size: 24px;
     font-weight: bold;
-    padding:0px;
+    padding:8px;
     margin:0px;
 }
